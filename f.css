@@ -1,0 +1,118 @@
+body{
+    background-color: rgb(41,41,41);
+}
+.mainbox{
+   
+    background: #D9D9D9;
+    width: 409px;
+    height: 592px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: start;
+    padding: 30px 30px;
+     box-sizing: border-box;
+}
+.outerbox{
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+    
+}
+#login{
+    background: #D5D3D6;
+    width: 344px;
+    height: 57px;
+    border-radius: 20px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+   
+    box-shadow:2px 3px #B7B6B6 ;
+    padding: 0px 10px;
+}
+#password{
+    background: #D5D3D6;
+    width: 344px;
+    height: 57px;
+    border-radius: 20px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    
+    box-shadow:2px 3px #B7B6B6 ;
+    padding: 0px 10px;
+}
+#cpassword{
+    background: #D5D3D6;
+    width: 344px;
+    height: 57px;
+    border-radius: 20px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+   
+    box-shadow:2px 3px #B7B6B6 ;
+    padding: 0px 10px;
+}
+#em{
+    background: #D5D3D6;
+    width: 344px;
+    height: 57px;
+    border-radius: 20px; 
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    border: none;
+    box-shadow:2px 3px #B7B6B6 ;
+    padding: 0px 10px;
+    
+}
+#signup{
+    background: #F85B77;
+    width: 354px;
+    height: 57px;
+    border-radius: 20px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border: none;
+    box-shadow:2px 3px #B7B6B6;
+    
+  
+}
+.topbox{
+    background:  #D5D3D6;
+    width: 344px;
+    height: 61px;
+    border-radius: 20px; 
+    display: flex;
+    justify-content: space-between ;
+    box-sizing: border-box;
+    border: solid #B7B6B6;
+    border-width: 0.5px;
+}
+.sbox{
+    background: #F85B77;
+    width: 183px;
+    height: 61px;
+    border-radius: 20px; 
+    display: flex;
+    color: white;
+    justify-content: center ;
+    box-shadow:2px 3px #B7B6B6;
+}
+.f{
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px  ;
+    justify-content: center;
+    /* align-items: center; */
+    display: flex;
+    box-sizing: border-box;
+}
