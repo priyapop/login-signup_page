@@ -46,36 +46,9 @@ body{
     box-shadow:2px 3px #B7B6B6 ;
     padding: 0px 10px;
 }
-#cpassword{
-    background: #D5D3D6;
-    width: 344px;
-    height: 57px;
-    border-radius: 20px; 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: none;
-    box-sizing: border-box;
-    box-shadow:2px 3px #B7B6B6 ;
-    padding: 0px 10px;
-}
-#em{
-    background: #D5D3D6;
-    width: 344px;
-    height: 57px;
-    border-radius: 20px; 
-    display: flex;
-    align-items: center;
-    justify-content:center ;
-    border: none;
-    box-sizing: border-box;
-    box-shadow:2px 3px #B7B6B6 ;
-    padding: 0px 10px;
-    
-}
 #signup{
     background: #F85B77;
-    width: 354px;
+    width: 344px;
     height: 57px;
     border-radius: 20px; 
     display: flex;
@@ -100,8 +73,17 @@ body{
     border-width: 0.5px;
     position: fixed;
     
+    
 }
 .sbox{
+ 
+    display: flex;
+    color: rgb(15, 15, 15);
+    justify-content: center ;
+  padding-right: 65px;
+    
+}
+.lbox{
     background: #F85B77;
     width: 183px;
     height: 57px;
@@ -110,7 +92,6 @@ body{
     color: white;
     justify-content: center ;
     box-shadow:2px 3px #B7B6B6;
-    
 }
 .f{
     justify-content: center;
@@ -122,16 +103,13 @@ body{
 .bbox{
     padding-top: 20px;
 }
-.lbox{
-    display: flex;
-    color: rgb(15, 15, 15);
-    justify-content: center ;
-    padding-left: 65px;
-}
 a{
     color:#000000;
     text-decoration: none;
 }
 .idk{
     padding-top: 30px;
+}
+#idk2{
+    padding-left: 5px;
 }
