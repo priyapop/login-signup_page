@@ -29,7 +29,7 @@ body{
     align-items: center;
     justify-content: center;
     border: none;
-   
+    box-sizing: border-box;
     box-shadow:2px 3px #B7B6B6 ;
     padding: 0px 10px;
 }
@@ -42,7 +42,7 @@ body{
     align-items: center;
     justify-content: center;
     border: none;
-    
+    box-sizing: border-box;
     box-shadow:2px 3px #B7B6B6 ;
     padding: 0px 10px;
 }
@@ -55,7 +55,7 @@ body{
     align-items: center;
     justify-content: center;
     border: none;
-   
+    box-sizing: border-box;
     box-shadow:2px 3px #B7B6B6 ;
     padding: 0px 10px;
 }
@@ -68,6 +68,7 @@ body{
     align-items: center;
     justify-content:center ;
     border: none;
+    box-sizing: border-box;
     box-shadow:2px 3px #B7B6B6 ;
     padding: 0px 10px;
     
@@ -82,6 +83,7 @@ body{
     justify-content: center;
     color: white;
     border: none;
+    box-sizing: border-box;
     box-shadow:2px 3px #B7B6B6;
     
   
@@ -89,30 +91,32 @@ body{
 .topbox{
     background:  #D5D3D6;
     width: 344px;
-    height: 61px;
+    height: 57px;
     border-radius: 20px; 
     display: flex;
     justify-content: space-between ;
     box-sizing: border-box;
     border: solid #B7B6B6;
     border-width: 0.5px;
+    position: fixed;
+    
 }
 .sbox{
     background: #F85B77;
     width: 183px;
-    height: 61px;
+    height: 57px;
     border-radius: 20px; 
     display: flex;
     color: white;
     justify-content: center ;
     box-shadow:2px 3px #B7B6B6;
+    
 }
 .f{
-    padding-top: 50px;
-    padding-left: 50px;
-    padding-right: 50px  ;
     justify-content: center;
-    /* align-items: center; */
     display: flex;
     box-sizing: border-box;
+    position: relative;
+    top: 80px;
 }
+
